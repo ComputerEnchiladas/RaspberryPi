@@ -1,7 +1,7 @@
 # AdaFruit 7in HDMI Touch Screen
 
 ## Configure boot option
-`sudo vi /boot/config`
+`sudo vi /boot/config.txt`
 
 Check to make sure the following lines are active (not commented out with #):
 * _hdmi_force_hotplug=1_
