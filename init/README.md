@@ -19,6 +19,9 @@ If you have backed up the following three files to usb data storage you can skip
 * `sudo dpkg -i chromium-codecs-ffmpeg-extra_48.0.2564.82-0ubuntu0.15.04.1.1193_armhf.deb`
 * `sudo dpkg -i chromium-browser-l10n_48.0.2564.82-0ubuntu0.15.04.1.1193_all.deb chromium-browser_48.0.2564.82-0ubuntu0.15.04.1.1193_armhf.deb`
 
+### Git
+* `sudo apt-get install git`
+
 ### NodeJs
 Raspbian will come with node version .10.29 pre-installed along with nodered, we will remove and install the latest (version 6)
 * `sudo su -`
@@ -27,13 +30,12 @@ Raspbian will come with node version .10.29 pre-installed along with nodered, we
 * `curl -sL https://deb.nodesource.com/setup_6.x | sudo bash -`
 * `sudo apt-get install -y nodejs`
 
-Once complete, check your node and npm version numbers by running
-* `node -v`
-* `npm -v`
-
-### Git
-* `sudo apt-get install git`
-
 ### VNC - Remote Desktop
 * Todo ...
 
+## Check installed software
+Once complete, check software versions by running
+* `chromium-browser --version`
+* `git --version`
+* `node -v`
+* `npm -v`
