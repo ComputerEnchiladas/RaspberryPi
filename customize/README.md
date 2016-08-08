@@ -33,6 +33,7 @@ Options:
 `sudo vi /etc/xdg/lxsession/LXDE/autostart`
 `sudo vi /etc/xdg/lxsession/LXDE-pi/autostart`
 `sudo vi ~/.config/lxsession/LXDE-pi/autostart`
+
 Remove the command:
 * _@xscreensaver -no-splash_
 
