@@ -7,9 +7,10 @@
 * Select new Raspbian installation, installation takes around 30 minutes.
 
 ## Raspbian Software
-### Updates
+### Updates + Dependencies
 * `sudo apt-get update`
 * `sudo apt-get dist-upgrade`
+* `sudo apt-get install x11-xserver-utils unclutter`
 
 ### Chromium
 If you have backed up the following three files to usb data storage you can skip the `wget ...` commands. 
