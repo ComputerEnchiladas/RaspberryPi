@@ -50,7 +50,7 @@ Add chromium with parameters options (see below):
 _@chromium-browser --noerrdialogs --kiosk --incognito http://google.com_
 
 Options:
-* --kiosk **starts browser without menu (headless)**
+* --kiosk (*starts browser without menu (headless)*)
 * --noerrdialogs (*supressess any startup errors*)
-* --incognito     # clear previous history
+* --incognito (* clear previous history*)
  
