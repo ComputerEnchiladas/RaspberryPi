@@ -11,3 +11,17 @@ Add any of the following:
 * display_rotate=0x10000 horizontal flip
 * display_rotate=0x20000 vertical flip
 
+## Chromium in kiosk mode
+`sudo vi ~/.config/lxsession/LXDE-pi/autostart`
+
+Add chromium with parameters options (see below):
+
+`@chromium-browser --noerrdialogs --kiosk --incognito http://google.com`
+
+Options:
+* --kiosk **starts browser without menu (headless)**
+* --noerrdialogs (*supressess any startup errors*)
+* --incognito     # clear previous history
+ 
+## Disable screensaver and power management
+
