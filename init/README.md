@@ -5,6 +5,7 @@
 * Format a microSD, then unzip NOOBS and copy what's inside the folder to the microSD.
 * With Pi off, insert the microSD and power up.
 * Select new Raspbian installation, installation takes around 30 minutes.
+
 ## Raspbian Software
 ### Updates
 * `sudo apt-get update`
