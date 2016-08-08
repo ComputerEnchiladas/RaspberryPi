@@ -1,7 +1,7 @@
 # Raspberry Pi Provisioning
 
 ## Raspbian OS - NOOBS (new out of box software)
-Go to the Raspberry Pi https://www.raspberrypi.org/downloads/noobs/ downloads and download zip of NOOBS (current 1.9.2, released 2016-05-27).
+Go to the Raspberry Pi downloads( https://www.raspberrypi.org/downloads/noobs/ ) and download zip of NOOBS (current 1.9.2, released 2016-05-27).
 Format a microSD, then unzip NOOBS and copy what's inside the folder to the microSD.
 With Pi off, insert the microSD and power up.
 Select new Raspbian installation, installation takes around 30 minutes.
@@ -20,11 +20,12 @@ If you have backed up the following three files to usb data storage, you can loc
 
 ### NodeJs
 Raspbian will come with node version .10.29 pre-installed along with nodered, we will remove and install the latest (version 6)
-* sudo su -
-* apt-get remove nodered -y
-* apt-get remove nodejs nodejs-legacy -y
-* curl -sL https://deb.nodesource.com/setup_6.x | sudo bash -
-* sudo apt-get install -y nodejs
+* `sudo su -`
+* `apt-get remove nodered -y`
+* `apt-get remove nodejs nodejs-legacy -y`
+* `curl -sL https://deb.nodesource.com/setup_6.x | sudo bash -`
+* `sudo apt-get install -y nodejs`
+
 Once complete, check your node and npm version numbers by running
-* node -v
-* npm -v
+* `node -v`
+* `npm -v`
