@@ -30,7 +30,6 @@ Raspbian will come with node version .10.29 pre-installed along with nodered, we
 Once complete, check your node and npm version numbers by running
 * `node -v`
 * `npm -v`
-* 
 
 ### Git
 * `sudo apt-get install git`
