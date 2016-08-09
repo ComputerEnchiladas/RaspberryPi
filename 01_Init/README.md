@@ -31,6 +31,13 @@ Raspbian will come with node version .10.29 pre-installed along with nodered, we
 * `curl -sL https://deb.nodesource.com/setup_6.x | sudo bash -`
 * `sudo apt-get install -y nodejs`
 
+### Youtube-DL
+**Do not use _youtube-dl_ that is installed from `sudo apt-get install youtube-dl`**
+* `sudo apt-get remove -y youtube-dl` (_if previously installed, then remove_)
+* `sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl`
+* `sudo chmod a+x /usr/local/bin/youtube-dl`
+* `hash -r`
+
 ### VNC - Remote Desktop
 * Todo ...
 
