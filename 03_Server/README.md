@@ -28,7 +28,7 @@ Inside bower.json you will find the UI component dependencies, similar to NPM bu
 ## NPM vs Bower
 NPM (node package manager) is a package management tool for module dependencies in NodeJs-based apps. Bower is a component management tool for UI dependencies which run on the browser. Some libraries, frameworks or modules have support for both NPM and Bower within one since source code. When you install NPM it defaults to a `_node_modules_` folder at project's root level. Inside node modules you will see all installed dependencies. You can always remove this folder and reinstall but make sure to check if you have locked down versions or are always requesting latest. With locked versions things are safer. When you install Bower, the installation path defaults to project root level to but through the `.bowerrc` we changed it to be under _server/public/bower_components_.
 
-Exercises:
+## Exercises:
 * Break down the home page (.ejs) to smaller pieces using server-side includes
 * Add new route; `method: GET, path: /api/hello`, and have it return a json object; `{ "msg": "Hello World" }`
 * Add jQuery as a bower component and connect it to load on the home page
