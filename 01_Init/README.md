@@ -37,6 +37,10 @@ Raspbian will come with node version .10.29 pre-installed along with nodered, we
 * `sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl`
 * `sudo chmod a+x /usr/local/bin/youtube-dl`
 * `hash -r`
+ 
+To use, first try downloading 720p (**_-f 22_**) and if it fails then ommit to get default.
+
+`youtube-dl -f 22 https://www.youtube.com/watch?XXXXXXXXXX`
 
 ### VNC - Remote Desktop
 * Todo ...
