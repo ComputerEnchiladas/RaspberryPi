@@ -64,3 +64,5 @@ Every client that connects to the server uses the socket parameter found in the 
 
 The term _real-time_ is often used to describe client applications receiving information from the server immediately upon it's availability. For example, when we are listening to a motion sensor in the RaspberryPi and the motion is activated, the socket server on the Pi to immediately notifies the client. Traditional HTTP is stateless where the connection does not persist, so the server would not be able to send update to a client. With sockets the connection persists and is bi-directional; this allows the server to update any connected clients on the status of the sensor.
 
+## Exercise
+Create a chat application using sockets.
