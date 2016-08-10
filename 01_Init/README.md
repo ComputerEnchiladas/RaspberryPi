@@ -24,7 +24,7 @@ If you have backed up the following three files to usb data storage you can skip
 Install
 * `sudo apt-get install git`
 
-Setup account and sign-in to [github](http://github.com)
+Sign-up to [github](http://github.com)
 
 **Setup ssh-key**
 
