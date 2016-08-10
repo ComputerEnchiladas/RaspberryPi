@@ -21,7 +21,16 @@ If you have backed up the following three files to usb data storage you can skip
 * `sudo dpkg -i chromium-browser-l10n_48.0.2564.82-0ubuntu0.15.04.1.1193_all.deb chromium-browser_48.0.2564.82-0ubuntu0.15.04.1.1193_armhf.deb`
 
 ### Git
+Install
 * `sudo apt-get install git`
+
+Setup account and sign-in to [github](http://github.com)
+
+**Setup ssh-key**
+
+Follow there instruction to create and configure a public ssh-key with github.com
+
+https://help.github.com/articles/generating-an-ssh-key/
 
 ### NodeJs
 Raspbian will come with node version .10.29 pre-installed along with nodered, we will remove and install the latest (version 6)
