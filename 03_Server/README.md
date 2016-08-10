@@ -1,8 +1,9 @@
 # Server Installation and Configuration
+Login to you RaspberryPi and get ready to install a custom server 
 ## Git Source Code
-We will be installing a NodeJs server using the HapiJS Framework
+We will be installing a NodeJs server using the [HapiJS](http://hapijs.com/) Framework
 
-Open up a terminal and find a location to checkout server code, then follow the commands below: 
+Open up a terminal and navigate to a location to checkout server code, then follow the commands below: 
 * `git clone git@github.com:ComputerEnchiladas/mahrio-raspbian.git`
 * `cd mahrio-raspbian`
 * `npm install`
