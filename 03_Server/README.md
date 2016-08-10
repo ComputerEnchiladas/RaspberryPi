@@ -1,5 +1,8 @@
 # Server Installation and Configuration
 Login to you RaspberryPi and get ready to install a custom server 
+
+## Readings
+* [HapiJS Tutorials](http://hapijs.com/tutorials)
 ## Git Source Code
 We will be installing a NodeJs server using the [HapiJS](http://hapijs.com/) Framework
 
