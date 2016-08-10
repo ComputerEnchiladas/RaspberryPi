@@ -9,7 +9,7 @@ library was used to facilitate **_ajax_** calls to the server. In the [sockets](
 WebSockets.
 
 ## Mobile App
-Hybrid-mobile apps are built using HTML, CSS & JavaScript where access to a phone's resources happens via [Apache Cordova](https://cordova.apache.org/). Cordova provides an API, similar to the DOM API, to leverage hardware access. When deployed to the phone it has the look and feel of a native app. Mobile app frameworks that extend and build upon Cordova are:
+Hybrid-mobile apps are built using HTML, CSS & JavaScript where access to a phone's resources happens via [Apache Cordova](https://cordova.apache.org/). Cordova provides API's to various [plugins](https://cordova.apache.org/docs/en/latest/#plugin-apis) which have hardware access. When deployed to the phone it has the look and feel of a native app. Mobile app frameworks that extend and build upon Cordova are:
 
 * [**_Ionic_**](http://ionicframework.com/)
 * [**_PhoneGap_**](http://phonegap.com/)
@@ -34,4 +34,4 @@ RaspberryPi can install Chromium and have it open in kiosk mode which is similar
 * [**_Bootstrap_**](http://getbootstrap.com/) is a mobile-first framework for fast prototyping web pages (requires jQuery)
 * [**_FontAwesome_**](http://fontawesome.io/) is an icon's library with css styling compatibility
 * [**_Foundation_**](http://foundation.zurb.com/) is a mobile-first framework similar to Bootstrap
-* [**_Material Design_**] is a design specification showcasing best practices for building web components
+* [**_Material Design_**](http://material.google.com) is a design specification showcasing best practices for building web components
