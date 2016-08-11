@@ -1,10 +1,14 @@
 # Raspberry Pi Provisioning
+## Readings
+* [Debian Operating System](https://www.debian.org/intro/about)
 
 ## Raspbian OS - NOOBS (new out of box software)
 * Go to the Raspberry Pi downloads( https://www.raspberrypi.org/downloads/noobs/ ) and download zip of NOOBS (current 1.9.2, released 2016-05-27).
 * Format a microSD, then unzip NOOBS and copy what's inside the folder to the microSD.
 * With Pi off, insert the microSD and power up.
-* Select new Raspbian installation, installation takes around 30 minutes.
+* Select new Raspbian\* installation, should takes around 30 minutes.
+
+\* Raspbian is a derivative of Debian built for ARM Architecture
 
 ## Raspbian Software
 ### Updates + Dependencies
