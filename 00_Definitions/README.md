@@ -5,6 +5,7 @@
 * [Chromium](https://www.chromium.org/)
 * [CSS](http://www.w3schools.com/css/default.asp)
 * [Express](https://expressjs.com/)
+* [Git](https://git-scm.com/)
 * [Hapi](http://hapijs.com/)
 * [HTML](http://www.w3schools.com/html/default.asp)
 * [Ionic](http://ionicframework.com/)
@@ -16,6 +17,11 @@
 * [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
 * [WebSockets](http://socket.io/)
 * [WebStorm](https://www.jetbrains.com/webstorm/)
+
+# Software-As-A-Service
+* [mLab](https://mlab.com/) - Database
+* [Heroku](https://www.heroku.com/) - Hosting Provider
+* [MailGun](https://www.mailgun.com/) - Email Dispatcher
 
 # Sensors (input) & Outputs
 * [Motion Sensor](https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/testing-a-pir?view=all)
@@ -34,3 +40,4 @@
 * [Bryan Hughes](https://github.com/nebrius)
 * [Learning](https://learn.adafruit.com/)
 * [Project Ideas](https://blog.adafruit.com/category/raspberry-pi/page/3/)
+* [Control Arduino with RaspberryPi](https://www.youtube.com/watch?v=mfIacE-SPvg)
