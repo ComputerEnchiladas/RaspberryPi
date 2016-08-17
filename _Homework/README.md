@@ -65,7 +65,7 @@
 
 **Procedure:** Create the same setup from week 4 but only use motion sensor. Then create a web interface using web server with sockets which will have a toggle on/off button to reflect system's on/off state. When system is on and motion sensor triggers, have the interface alert you in addition to sounding an alarm.
 
-## Week 7
+## Week 7 [Optional]
 **Title:** Ionic Mobile App
 
 **Tags:** Ionic, Angular, HTML, CSS, JavaScript
@@ -78,8 +78,8 @@
 
 **Procedure:** Create an new Ionic project and rebuild the web interface from week 6
 
-## Week 8
-[Optional] - Deploy Web Server to [Heroku Cloud](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction) and install socket-client on RaspberryPi. The Heroku server instance will be a proxy where data coming from the hardware is propagated to connected clients. In addition, Heroku will also proxy messages to the hardware.
+## Week 8 [Optional]
+Deploy Web Server to [Heroku Cloud](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction) and install socket-client on RaspberryPi. The Heroku server instance will be a proxy where data coming from the hardware is propagated to connected clients. In addition, Heroku will also proxy messages to the hardware.
 
 Work on Final Project
 
