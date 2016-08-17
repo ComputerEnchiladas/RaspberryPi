@@ -50,3 +50,6 @@ Now to move forwards push letter ```n``` and backwards use ```N```
 
 ## Insert Mode
 `cmd + v` or `ctrl + v` - paste text
+
+## Reference
+[vi editor](http://www.lagmonster.org/docs/vi.html)
