@@ -2,12 +2,13 @@
 ## Week 1
 **Title:** Web Server
 
-**Tags:** Node, JavaScript, HTTP, HTML
+**Tags:** Node, HTTP, HTML, CSS, JavaScript
 
 **Links:**
 
 * [_hapijs_](http://hapijs.com/tutorials)
 * [_expressjs_](http://socket.io/get-started/chat/) - ONLY **_The web framework_** & **_Serving HTML_**
+* [hapi vs express](https://www.airpair.com/node.js/posts/nodejs-framework-comparison-express-koa-hapi)
 
 ## Week 2
 **Title:** Message Passing with Sockets
@@ -21,7 +22,7 @@
 ## Week 3
 **Title:** Raspberry Pi
 
-**Tags:** Johnny-Five
+**Tags:** Node, JavaScript, Johnny-Five
 
 **Links:** 
 
@@ -37,12 +38,16 @@
 
 ## Week 4
 **Title:** Motion Sensor
+
+**Tags:** Node, JavaScript, Johnny-Five
 **Hardware:** Motion Sensor, 1 Button, 1 buzzer & 2 LEDs
 
 **Procedure:** Configure the first LED as output relative to the button input. The system begins in off state, then button pressed and held turns system on and LED stays on. Press and hold button again to shut down system and LED. This will be the power up and power down state change. Next, when powered on activate the motion sensor so that when motion is detected it blinks the second LED and also sounds the buzzer. To turn off the alarm & LED (but not the system) have the button pressed and released (not held).
 
 ## Week 5
 **Title:** Web Server with Sockets on RaspberryPi
+
+**Tags:** Node, Sockets, HTTP, HTML, CSS, JavaScript
 
 **Procedure:** Setup the web server with sockets on the raspberry pi
 
@@ -58,7 +63,7 @@
 ## Week 7
 **Title:** Ionic Mobile App
 
-**Tags:** Mobile App
+**Tags:** Ionic, Angular, HTML, CSS, JavaScript
 
 **Hardware:** Mobile Phone / Tablet (Android or iOS)
 
