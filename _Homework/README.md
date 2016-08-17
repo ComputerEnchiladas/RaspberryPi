@@ -73,6 +73,8 @@
 ### Procedure: Create an new Ionic project and rebuild the web interface from week 6
 
 ## Week 8
+[Optional] - Deploy Web Server to [Heroku Cloud](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
+
 Work on Final Project
 
 ## Week 9
