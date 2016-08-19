@@ -17,7 +17,7 @@ The midterm will be to prototype a small and simple project utilizing the motion
 #### Maker Fair - 20% of grade
 The fair will allow you to gain valuable feedback from live audiences.
 * Class: 13
-* Homework: Add feedback from fair to final project
+* Homework: 13
 
 #### Final Project Report - 40% of grade
 The final project will take the midterm prototype or a project of your choice, and scale it to a marketable product. A marketable product 
