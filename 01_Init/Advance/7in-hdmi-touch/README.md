@@ -9,7 +9,7 @@ Add (by uncommenting; #) + Change the following hdmi properties:
 * _hdmi_group=2_
 * _hdmi_mode=1_
 * _hdmi_mode=87_
-* _vhdmi_cvt=800 480 60 6 0 0 0_
+* _hdmi_cvt=800 480 60 6 0 0 0_
 * _max_usb_current=1_
 
 ### Remove HDMI Config
