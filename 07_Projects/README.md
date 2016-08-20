@@ -11,3 +11,5 @@ Create art work from an LED light show.
 Search the internet for the morning news and begin playback
 ## [Router with Ad-Block](https://pi-hole.net/)
 Add a hardware-proxy to filter out ads
+## [IR Remote](https://learn.adafruit.com/using-an-ir-remote-with-a-raspberry-pi-media-center/overview)
+Connect Infrared sensor and send it commands with remote
