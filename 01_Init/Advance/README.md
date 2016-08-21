@@ -44,4 +44,4 @@ Add the command:
 
 ## [Chromium in kiosk mode](http://www.0atman.com/auto-start-full-screen-web-page-on-raspbian-jessie-startup.html)
 
- 
+## [LIRC Setup](http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/)
