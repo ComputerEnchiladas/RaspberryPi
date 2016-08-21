@@ -33,6 +33,10 @@
 * [Analog Input](https://www.adafruit.com/products/856)
 * [InfraRed with Remote](https://www.adafruit.com/products/1560)
 
+## Datasheets
+* [Ifrared Remote Control](http://www.farnell.com/datasheets/30481.pdf)
+
+
 # Fixtures/Designing
 * [Zipper Switch](https://learn.adafruit.com/zipper-switch)
 
