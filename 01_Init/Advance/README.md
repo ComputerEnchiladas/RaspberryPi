@@ -42,15 +42,6 @@ Add these commands:
 Add the command:
 * _@sed -i 's/"exited_cleanly": false/"exited_cleanly": true/' ~/.config/chromium/Default/Preferences_
 
-## Chromium in kiosk mode
-`sudo vi ~/.config/lxsession/LXDE-pi/autostart`
+## [Chromium in kiosk mode](http://www.0atman.com/auto-start-full-screen-web-page-on-raspbian-jessie-startup.html)
 
-Add chromium with parameters options (see below):
-
-_@chromium-browser --noerrdialogs --kiosk --incognito http://google.com_
-
-Options:
-* --kiosk (*starts browser without menu (headless)*)
-* --noerrdialogs (*supressess any startup errors*)
-* --incognito (*clear previous history*)
  
