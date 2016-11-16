@@ -1,5 +1,5 @@
 # Linux
-Navigating through a linux environment has some commands one needs to remember. He they are so that we never forget.
+Navigating through a linux environment has some commands one needs to remember. Here they are so that we never forget.
 
 * ```cat /proc/cpuinfo```
 * ```cat /proc/meminfo```
