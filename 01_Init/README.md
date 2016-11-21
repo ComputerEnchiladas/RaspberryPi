@@ -60,6 +60,9 @@ To use, first try downloading 720p (**_-f 22_**) and if it fails then ommit to g
 
 After install run `vncserver` and on first run you will be asked for a password. Then choose no for read-only setup. Now everytime you ssh you can run `vncserver` and have the remote desktop running.
 
+### WiringPi
+* `sudo apt-get install wiringpi`
+
 ## Check installed software
 Once complete, check software versions by running
 * `chromium-browser --version`
