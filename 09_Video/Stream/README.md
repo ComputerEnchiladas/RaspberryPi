@@ -54,5 +54,4 @@ $ sudo reboot
 Open chrome browser and go to stream server url and port
 
 Run omxplayer:
-```omxplayer http://192.168.0.8:9090/stream/video.mjpeg --live
-```
+```omxplayer http://stream-server-ip:port/stream/video.mjpeg --live```
