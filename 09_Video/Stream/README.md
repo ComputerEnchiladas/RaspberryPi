@@ -21,6 +21,7 @@ Open Network stream using http://###.###.###.###:8091
 
 # UV4L video streming server with web and omxplayer clients
 ## On the Raspberry Pi (3 Only)
+https://www.linux-projects.org/uv4l/tutorials/streaming-server/
 
 To install the uv4l driver, open the terminal and run the following commands:
 
