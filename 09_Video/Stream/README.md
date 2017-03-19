@@ -10,7 +10,7 @@
 Install [brew](https://brew.sh/), then `brew install mplayer`
 
 # Raspivid with VLC
-## On the Raspberry Pi (3 Only)
+## On the Raspberry Pi (3 Only) 
 ```raspivid -t 0 -w 1280 -h 720 -ih -fps 20 -o - |cvlc -vvv stream:///dev/stdin --sout '#standard{access=http,mux=ts,dst=:8091}' :demux=h264```
 
 ## On vlc app (mobile phones)
@@ -49,3 +49,10 @@ $ sudo apt-get install uv4l-xscreen
 $ sudo apt-get install uv4l-mjpegstream
 
 $ sudo reboot
+
+## Clients
+Open chrome browser and go to stream server url and port
+
+Run omxplayer:
+```omxplayer http://192.168.0.8:9090/stream/video.mjpeg --live
+```
