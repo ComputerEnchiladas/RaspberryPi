@@ -56,3 +56,7 @@ Open chrome browser and go to stream server url and port
 
 Run omxplayer:
 ```omxplayer http://stream-server-ip:port/stream/video.mjpeg --live```
+
+# FSWEBCAM (using usb camera)
+
+fswebcam -d /dev/video0 -r 640x480 --jpeg 85 -F 5 test.jpg
