@@ -5,6 +5,9 @@
 ```raspivid -t 0 -w 1280 -h 720 -ih -fps 20 -o - | nc -k -l ###.###.#.## 8090```
 
 ## On a mac running mplayer
+
+ftp://ftp7.mplayerhq.hu/MPlayer/DOCS/HTML/en/index.html
+
 ```mplayer -fps 200 -demuxer h264es ffmpeg://tcp://###.###.###.###:8090```
 
 Install [brew](https://brew.sh/), then `brew install mplayer`
@@ -59,6 +62,13 @@ Run omxplayer:
 
 # FSWEBCAM (using usb camera)
 
+http://www.slblabs.com/2012/09/26/rpi-webcam-stream/
 https://www.raspberrypi.org/documentation/usage/webcams/
+```fswebcam -d v4l2:/dev/video0 -r 1920x1080 --jpeg 95 -F 5 output.jpg```
+```fswebcam -d v4l2:/dev/video0 --list-controls```
+# FFMPEG
 
-```fswebcam -d /dev/video0 -r 640x480 --jpeg 85 -F 5 test.jpg```
+https://trac.ffmpeg.org/wiki/StreamingGuide
+https://www.ffmpeg.org/
+
+```ffmpeg -i /dev/video0 -c:v libx264 -preset ultrafast -crf 0 output.mkv```
