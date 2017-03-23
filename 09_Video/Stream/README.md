@@ -75,3 +75,7 @@ https://trac.ffmpeg.org/wiki/StreamingGuide
 https://www.ffmpeg.org/
 
 ```ffmpeg -i /dev/video0 -c:v libx264 -preset ultrafast -crf 0 output.mkv```
+
+# RPi Video Conference OS
+
+http://www.linux-projects.org/rpi-videoconference-demo-os/
