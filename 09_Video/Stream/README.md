@@ -66,6 +66,7 @@ http://www.slblabs.com/2012/09/26/rpi-webcam-stream/
 https://www.raspberrypi.org/documentation/usage/webcams/
 
 ```fswebcam -d v4l2:/dev/video0 -r 1920x1080 --jpeg 95 -F 5 output.jpg```
+
 ```fswebcam -d v4l2:/dev/video0 --list-controls```
 
 # FFMPEG
