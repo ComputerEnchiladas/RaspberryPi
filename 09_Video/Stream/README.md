@@ -59,4 +59,6 @@ Run omxplayer:
 
 # FSWEBCAM (using usb camera)
 
-fswebcam -d /dev/video0 -r 640x480 --jpeg 85 -F 5 test.jpg
+https://www.raspberrypi.org/documentation/usage/webcams/
+
+```fswebcam -d /dev/video0 -r 640x480 --jpeg 85 -F 5 test.jpg```
