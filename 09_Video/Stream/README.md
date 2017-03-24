@@ -70,7 +70,7 @@ https://www.raspberrypi.org/documentation/usage/webcams/
 ```fswebcam -d v4l2:/dev/video0 --list-controls```
 
 # FFMPEG
-
+https://www.jeffreythompson.org/blog/2014/11/13/installing-ffmpeg-for-raspberry-pi/
 https://trac.ffmpeg.org/wiki/StreamingGuide
 https://www.ffmpeg.org/
 
