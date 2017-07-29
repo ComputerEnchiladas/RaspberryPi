@@ -17,7 +17,7 @@
 * `sudo apt-get install x11-xserver-utils unclutter`
 
 ### Chromium
-If you have backed up the following three files to usb data storage you can skip the `wget ...` commands. 
+If you have backed up the following three files to usb data storage you can skip the `wget ...` commands.
 * `wget http://ports.ubuntu.com/pool/universe/c/chromium-browser/chromium-browser-l10n_48.0.2564.82-0ubuntu0.15.04.1.1193_all.deb`
 * `wget http://ports.ubuntu.com/pool/universe/c/chromium-browser/chromium-browser_48.0.2564.82-0ubuntu0.15.04.1.1193_armhf.deb`
 * `wget http://ports.ubuntu.com/pool/universe/c/chromium-browser/chromium-codecs-ffmpeg-extra_48.0.2564.82-0ubuntu0.15.04.1.1193_armhf.deb`
@@ -50,7 +50,7 @@ Raspbian will come with node version .10.29 pre-installed along with nodered, we
 * `sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl`
 * `sudo chmod a+x /usr/local/bin/youtube-dl`
 * `hash -r`
- 
+
 To use, first try downloading 720p (**_-f 22_**) and if it fails then ommit to get default.
 
 `youtube-dl -f 22 https://www.youtube.com/watch?XXXXXXXXXX`
@@ -62,6 +62,9 @@ After install run `vncserver` and on first run you will be asked for a password.
 
 ### WiringPi
 * `sudo apt-get install wiringpi`
+
+### Raspi-GPIO
+* `sudo apt-get install raspi-gpio`
 
 ## Check installed software
 Once complete, check software versions by running
